@@ -1,0 +1,10 @@
+{
+  "name": "paiza",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.15"
+  }
+}
