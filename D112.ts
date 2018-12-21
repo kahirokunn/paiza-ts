@@ -29,4 +29,6 @@ function PaizaInputer(callback: Callback, lineLimit: number = 1) {
   }).on('line', (line: string) => queue.enqueue(line));
 }
 
-export default PaizaInputer
+PaizaInputer((lines: string[]) => {
+  console.log(Number(lines[0]) * Number(lines[1]))
+}, 2)
